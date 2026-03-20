@@ -45,11 +45,11 @@ Designed a modern data warehouse using the **Medallion Architecture**:
 ---
 
 ## 🏗️ Architecture
-    Source Data (CSV)
+     Source Data (CSV)
            │
            ▼
     🥉 Bronze Layer
- (Raw Ingestion Tables)
+     (Raw Ingestion Tables)
            │
            ▼
     🥈 Silver Layer
