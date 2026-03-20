@@ -1,25 +1,89 @@
-## Building the Data Warehouse (Data Engineering)
+# 🚀 Data Warehouse and Analytics Project
 
-### Objective
+Welcome to the **Data Warehouse and Analytics Project** repository!
 
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+This project demonstrates an end-to-end data warehousing and analytics solution — from raw data ingestion to business-ready insights. Built as a portfolio project, it reflects industry best practices in **data engineering, data modeling, and analytics** using a modern Medallion Architecture.
 
-### Specifications
+---
 
-- **Data Sources:** Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality:** Cleanse and resolve data quality issues prior to analysis.
-- **Integration:** Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope:** Focus on the latest dataset only; historization of data is not required.
-- **Documentation:** Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+## 📌 Project Overview
 
-## BI: Analytics & Reporting (Data Analysis)
+This project covers the complete data lifecycle:
 
-### Objective
+### 🏗️ Data Architecture
+Designed a modern data warehouse using the **Medallion Architecture**:
+- 🥉 Bronze Layer – Raw data ingestion  
+- 🥈 Silver Layer – Cleaned and transformed data  
+- 🥇 Gold Layer – Business-ready analytics layer (Star Schema)
 
-Develop SQL-based analytics to deliver detailed insights into:
+### 🔄 ETL Pipelines
+- Extract data from source systems (CSV files)
+- Transform and clean datasets
+- Load into structured warehouse layers
 
-- Customer Behaviour
-- Product Performance
-- Sales Trends
+### 🧱 Data Modeling
+- Fact tables  
+- Dimension tables  
+- Star schema optimized for analytical queries  
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+### 📊 Analytics & Reporting
+- Exploratory Data Analysis (EDA)  
+- Statistical analysis (Confidence Intervals, T-tests)  
+- Business insights generation  
+- Data visualization using Python  
+
+---
+
+## 🛠️ Tech Stack
+
+- **SQL (SQL Server / SQLite)** – Data warehouse & transformations  
+- **Python** – Data processing & analysis  
+- **Pandas, NumPy** – Data manipulation  
+- **Matplotlib, Seaborn** – Data visualization  
+- **Statistics** – Hypothesis testing, confidence intervals  
+
+---
+
+## 🏗️ Architecture
+    Source Data (CSV)
+           │
+           ▼
+    🥉 Bronze Layer
+ (Raw Ingestion Tables)
+           │
+           ▼
+    🥈 Silver Layer
+    (Cleaned & Transformed Data)
+           │
+           ▼
+    🥇 Gold Layer
+    (Fact & Dimension Tables / Views)
+          │
+          ▼
+    Analytics & Insights
+
+
+---
+
+## 📊 Key Insights
+
+---
+
+## 📈 Features
+
+- End-to-end ETL pipeline (Bronze → Silver → Gold)  
+- Automated data cleaning & transformation  
+- Vendor performance analysis  
+- Inventory optimization insights  
+- Statistical validation (Hypothesis Testing)  
+- Data visualization & dashboards  
+
+---
+
+## 💼 Business Value
+
+This project demonstrates how data can be used to:
+- Improve inventory management
+- Optimize pricing strategies
+- Identify high-value vendors
+- Enhance profitability and decision-making
