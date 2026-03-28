@@ -2,7 +2,7 @@
 
 Welcome to the **Data Warehouse and Analytics Project** repository!
 
-This project demonstrates an end-to-end data warehousing and analytics solution — from raw data ingestion to business-ready insights. Built as a portfolio project, it reflects industry best practices in **data engineering, data modeling, and analytics** using a modern Medallion Architecture.
+This project demonstrates an end-to-end data warehousing and analytics solution from raw data ingestion to business-ready insights. Built as a portfolio project, it reflects industry best practices in **data engineering, data modeling, and analytics** using a modern Medallion Architecture.
 
 ---
 
